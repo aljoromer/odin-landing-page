@@ -1,2 +1,3 @@
 # odin-landing-page
-Landing page project, as part of the Odin Project Course https://www.theodinproject.com/lessons/foundations-landing-page
+This is my solution to The Odin Project's [Project: Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page), as part of the Foundations course.
+
