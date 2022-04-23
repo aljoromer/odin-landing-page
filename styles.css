@@ -1,0 +1,76 @@
+body {
+    display:flex;
+    flex-direction:column;
+}
+
+.header {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:#1F2937;
+    height:48px;
+    padding:16px;
+    color:white;
+}
+
+.headerlogo {
+    font-size:24px;
+    color:#F9FAF8
+}
+
+.headerlinks {
+    display:flex;
+    gap:16px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration:none;
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    display:flex;
+    background:#1F2937;
+    height: 100%;
+}
+
+.introleft {
+    padding-left:200px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.introright {
+
+}
+
+.introimg {
+    height:300px;
+    width:400px;
+}
+
+.heromain {
+    font-size:48px;
+}
+
+.info {
+    flex: 4;
+    height: 400px;
+}
+
+.quote {
+    flex: 4;
+    background:#E5E7EB;
+    height: 400px;
+}
+
+.sign-up {
+    flex: 3;
+    height:300px;
+}
