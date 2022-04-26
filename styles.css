@@ -81,7 +81,7 @@ button {
     background-color:#3882F6;
     font-size:18px;
     font-weight: bold;
-    padding: 12px 24px;
+    padding: 8px 24px;
     border-radius:8px;
     border:0;
 }
@@ -153,7 +153,33 @@ button {
     font-weight:bold;
 }
 
-.sign-up {
-    flex: 3;
+.signup {
+    display:flex;
+    justify-content:center;
+    align-items:center;
     height:300px;
+}
+
+.signupbox {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#3882F6;
+    height:50%;
+    width:50%;
+}
+
+.signupbox button {
+    border:2px;
+    border-color: white;
+    border-style:solid;
+}
+
+.callToAction {
+    color:white;
+}
+
+.callToAction p {
+    font-size:24px;
+    margin:8px 0px;
 }
