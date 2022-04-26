@@ -171,15 +171,30 @@ button {
 
 .signupbox button {
     border:2px;
-    border-color: white;
+    border-color: #E5E7EB;
     border-style:solid;
 }
 
 .callToAction {
-    color:white;
+    color:#E5E7EB;
 }
 
 .callToAction p {
     font-size:24px;
     margin:8px 0px;
+}
+
+.copyright {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#1F2937;
+    height:150px;
+    color:#E5E7EB;
+}
+
+.copyright a {
+    text-decoration:none;
+    color:#E5E7EB;
 }
